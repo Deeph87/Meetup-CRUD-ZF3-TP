@@ -1,5 +1,6 @@
 <?php
 
+use Symfony\Component\Dotenv\Dotenv;
 use Zend\Mvc\Application;
 use Zend\Stdlib\ArrayUtils;
 
@@ -28,6 +29,17 @@ if (! class_exists(Application::class)) {
         . "- Type `vagrant ssh -c 'composer install'` if you are using Vagrant.\n"
         . "- Type `docker-compose run zf composer install` if you are using Docker.\n"
     );
+}
+
+// Load environment variables
+//var_dump(class_exists(Dotenv::class));
+//var_dump(is_file(__DIR__ . '/../.env'));
+//die('youhou');
+if (class_exists(Dotenv::class) && is_file(__DIR__ . '/../.env')) {
+    $dotenv = new Dotenv();
+    $dotenv->load(__DIR__ . '/../.env');
+//    var_dump($dotenv);
+//    die('est');
 }
 
 // Retrieve configuration

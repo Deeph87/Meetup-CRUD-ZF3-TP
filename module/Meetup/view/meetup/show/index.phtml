@@ -1,0 +1,49 @@
+<ol class="breadcrumb">
+    <li><a href="<?= $this->url('home') ?>">Home</a></li>
+</ol>
+
+<h1>Liste des Meetups</h1>
+
+<?php
+    if(isset($this->errorMessages)) {
+        foreach ($this->errorMessages as $errorMessage) {
+            echo $errorMessage;
+        }
+    }
+
+    if(isset($this->successMessages)) {
+        foreach ($this->successMessages as $successMessage) {
+            echo $successMessage;
+        }
+    }
+
+    if(isset($this->warningMessages)) {
+                foreach ($this->warningMessages as $warningMessage) {
+            echo $warningMessage;
+        }
+    }
+?>
+<?php foreach ($this->meetups as $meetup): /* @var $meetups \Meetup\Entity\Meetup */ ?>
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading"><h2><?= $meetup->getTitle() ?></h2></div>
+
+        <!-- List group -->
+        <ul class="list-group">
+            <li class="list-group-item"><?= "<strong>Description :</strong> " . $meetup->getDescription() ?></li>
+            <li class="list-group-item"><?= "<strong>Date de début :</strong> " . $meetup->getDateStart()->format('d/m/Y') ?></li>
+            <li class="list-group-item"><?= "<strong>Date de fin :</strong> " . $meetup->getDateEnd()->format('d/m/Y') ?></li>
+            <li class="list-group-item">
+                <div class="btn-group btn-group-sm" role="group">
+                    <a class="btn btn-primary" href="<?= $this->url('home/show', ['id' => $meetup->getId()]); ?>">Voir</a>
+                    <a class="btn btn-warning" href="<?= $this->url('home/edit', ['id' => $meetup->getId()]); ?>">Editer</a>
+                    <a class="btn btn-danger" href="<?= $this->url('home/delete', ['id' => $meetup->getId()]); ?>">Supprimer</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+<?php endforeach; ?>
+
+<div class="btn-group btn-group-sm" role="group" aria-label="Extra-small button group">
+    <a class="btn btn-success" href="<?= $this->url('home/add') ?>">Ajouter</a>
+</div>

@@ -1,0 +1,35 @@
+<ol class="breadcrumb">
+    <li><a href="<?= $this->url('home') ?>">Home</a></li>
+</ol>
+
+<h1>Ajouter un meetup</h1>
+
+<?php
+$form = $this->form; /* @var $form \Zend\Form\Form */
+?>
+
+<?= $this->form()->openTag($form); ?>
+
+<?= $this->formElementErrors($form->get('title')); ?>
+<?= $this->formLabel($form->get('title')) ?>
+<?= $this->formText($form->get('title')) ?>
+<br/>
+<br/>
+<?= $this->formElementErrors($form->get('description')); ?>
+<?= $this->formLabel($form->get('description')) ?>
+<?= $this->formTextarea($form->get('description')) ?>
+<br/>
+<br/>
+<?= $this->formElementErrors($form->get('dateStart')); ?>
+<?= $this->formLabel($form->get('dateStart')) ?>
+<?= $this->formDate($form->get('dateStart')) ?>
+<br/>
+<br/>
+<?= $this->formElementErrors($form->get('dateEnd')); ?>
+<?= $this->formLabel($form->get('dateEnd')) ?>
+<?= $this->formDate($form->get('dateEnd')) ?>
+<br/>
+<br/>
+<?= $this->formSubmit($form->setValue('Ajouter'), $form->setAttribute('class', 'btn btn-primary')) ?>
+
+<?= $this->form()->closeTag($form); ?>

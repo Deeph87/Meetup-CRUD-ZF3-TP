@@ -1,0 +1,21 @@
+<?php
+
+use Doctrine\DBAL\Driver\PDOMySql\Driver;
+
+return [
+    'doctrine' => [
+        'connection' => [
+            // default connection name
+            'orm_default' => [
+                'driverClass' => Driver::class,
+                'params' => [
+                    'host'     => 'yourHost',
+                    'port'     => 'yourPort',
+                    'user'     => 'yourUser',
+                    'password' => 'yourPassword',
+                    'dbname'   => 'youDBName',
+                ],
+            ],
+        ],
+    ],
+];

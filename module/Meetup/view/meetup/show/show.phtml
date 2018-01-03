@@ -1,0 +1,14 @@
+<ol class="breadcrumb">
+    <li><a href="<?= $this->url('home') ?>">Home</a></li>
+</ol>
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading"><h2><?= $this->meetup->getTitle() ?></h2></div>
+
+    <!-- List group -->
+    <ul class="list-group">
+        <li class="list-group-item"><?= "<strong>Description :</strong> " . $this->meetup->getDescription() ?></li>
+        <li class="list-group-item"><?= "<strong>Date de début :</strong> " . $this->meetup->getDateStart()->format('d/m/Y') ?></li>
+        <li class="list-group-item"><?= "<strong>Date de fin :</strong> " . $this->meetup->getDateEnd()->format('d/m/Y') ?></li>
+    </ul>
+</div>
