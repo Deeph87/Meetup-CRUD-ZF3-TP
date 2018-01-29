@@ -20,6 +20,8 @@ Utilisation de :
 
 `docker compose up -d --build`
 
+`docker exec -ti zendtp_zf_1 php vendor/bin/doctrine-module orm:schema-tool:update -f`
+
 4 - Le projet devrait se lancer sur 
 
 http://localhost:8080
