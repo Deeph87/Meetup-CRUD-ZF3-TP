@@ -50,6 +50,6 @@
         "symfony/var-dumper": "^4.0",
         "friendsofphp/php-cs-fixer": "^2.9",
         "symfony/dotenv": "^4.0",
-        "phpunit/phpunit": "^6.4"
+        "phpunit/phpunit": "6.4.4"
     }
 }

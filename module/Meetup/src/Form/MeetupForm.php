@@ -158,7 +158,7 @@ class MeetupForm extends Form
 
     public function validateDateChronology($value, $context, $compare)
     {
-        if ($context[$compare] && ($compare === self::DATE_START_POST || $compare === self::DATE_END_POST)) {
+        if (isset($context[$compare]) && ($compare === self::DATE_START_POST || $compare === self::DATE_END_POST)) {
             $currentDate = $this->dateTime::createFromFormat('Y-m-d', $value);
             $compareDate = $this->dateTime::createFromFormat('Y-m-d', $context[$compare]);
 

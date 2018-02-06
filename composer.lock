@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "150cae9c65fd15b2d251108f180efaa6",
+    "content-hash": "553908224c4e3e3384a2cbf80271bc54",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -1180,16 +1180,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
                 "shasum": ""
             },
             "require": {
@@ -1201,7 +1201,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -1235,7 +1235,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-10-11T12:05:26+00:00"
+            "time": "2018-01-30T19:27:44+00:00"
         },
         {
             "name": "zendframework/zend-authentication",
@@ -2181,16 +2181,16 @@
         },
         {
             "name": "zendframework/zend-paginator",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-paginator.git",
-                "reference": "655b9ef28092b283e10e6c6a4f42c82db992b2ba"
+                "reference": "fd58828c8280a90f133b9e0af2fe1a7885d47206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-paginator/zipball/655b9ef28092b283e10e6c6a4f42c82db992b2ba",
-                "reference": "655b9ef28092b283e10e6c6a4f42c82db992b2ba",
+                "url": "https://api.github.com/repos/zendframework/zend-paginator/zipball/fd58828c8280a90f133b9e0af2fe1a7885d47206",
+                "reference": "fd58828c8280a90f133b9e0af2fe1a7885d47206",
                 "shasum": ""
             },
             "require": {
@@ -2202,7 +2202,7 @@
                 "zendframework/zend-cache": "^2.6.1",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-config": "^2.6.0",
-                "zendframework/zend-db": "^2.7",
+                "zendframework/zend-db": "^2.9.2",
                 "zendframework/zend-filter": "^2.6.1",
                 "zendframework/zend-json": "^2.6.1",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
@@ -2242,7 +2242,7 @@
                 "paginator",
                 "zf2"
             ],
-            "time": "2017-11-01T20:49:42+00:00"
+            "time": "2018-01-30T15:52:44+00:00"
         },
         {
             "name": "zendframework/zend-router",
@@ -2375,16 +2375,16 @@
         },
         {
             "name": "zendframework/zend-session",
-            "version": "2.8.3",
+            "version": "2.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-session.git",
-                "reference": "c14be63df39b0caee784e53cd57c43eb48efefea"
+                "reference": "9338f1ae483bcc18cc3b6c0347c8ba4f448b3e2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-session/zipball/c14be63df39b0caee784e53cd57c43eb48efefea",
-                "reference": "c14be63df39b0caee784e53cd57c43eb48efefea",
+                "url": "https://api.github.com/repos/zendframework/zend-session/zipball/9338f1ae483bcc18cc3b6c0347c8ba4f448b3e2a",
+                "reference": "9338f1ae483bcc18cc3b6c0347c8ba4f448b3e2a",
                 "shasum": ""
             },
             "require": {
@@ -2441,7 +2441,7 @@
                 "session",
                 "zf"
             ],
-            "time": "2017-12-01T17:35:04+00:00"
+            "time": "2018-01-31T17:38:47+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -2537,16 +2537,16 @@
         },
         {
             "name": "zendframework/zend-validator",
-            "version": "2.10.1",
+            "version": "2.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-validator.git",
-                "reference": "010084ddbd33299bf51ea6f0e07f8f4e8bd832a8"
+                "reference": "38109ed7d8e46cfa71bccbe7e6ca80cdd035f8c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/010084ddbd33299bf51ea6f0e07f8f4e8bd832a8",
-                "reference": "010084ddbd33299bf51ea6f0e07f8f4e8bd832a8",
+                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/38109ed7d8e46cfa71bccbe7e6ca80cdd035f8c9",
+                "reference": "38109ed7d8e46cfa71bccbe7e6ca80cdd035f8c9",
                 "shasum": ""
             },
             "require": {
@@ -2581,8 +2581,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.10-dev",
-                    "dev-develop": "2.11-dev"
+                    "dev-master": "2.10.x-dev",
+                    "dev-develop": "2.11.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\Validator",
@@ -2604,7 +2604,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2017-08-22T14:19:23+00:00"
+            "time": "2018-02-01T17:05:33+00:00"
         },
         {
             "name": "zendframework/zend-view",
@@ -2808,16 +2808,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.10.0",
+            "version": "v2.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "513a3765b56dd029175f9f32995566657ee89dda"
+                "reference": "74e4682a4073bc8bc2d4ff2b30a4873ac76cc1f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/513a3765b56dd029175f9f32995566657ee89dda",
-                "reference": "513a3765b56dd029175f9f32995566657ee89dda",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/74e4682a4073bc8bc2d4ff2b30a4873ac76cc1f1",
+                "reference": "74e4682a4073bc8bc2d4ff2b30a4873ac76cc1f1",
                 "shasum": ""
             },
             "require": {
@@ -2860,21 +2860,19 @@
                 "php-cs-fixer"
             ],
             "type": "application",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.10-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "PhpCsFixer\\": "src/"
                 },
                 "classmap": [
                     "tests/Test/AbstractFixerTestCase.php",
+                    "tests/Test/AbstractIntegrationCaseFactory.php",
                     "tests/Test/AbstractIntegrationTestCase.php",
                     "tests/Test/Assert/AssertTokensTrait.php",
                     "tests/Test/IntegrationCase.php",
                     "tests/Test/IntegrationCaseFactory.php",
+                    "tests/Test/IntegrationCaseFactoryInterface.php",
+                    "tests/Test/InternalIntegrationCaseFactory.php",
                     "tests/TestCase.php"
                 ]
             },
@@ -2893,27 +2891,27 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "time": "2018-01-10T17:16:15+00:00"
+            "time": "2018-02-03T08:30:06+00:00"
         },
         {
             "name": "gecko-packages/gecko-php-unit",
-            "version": "v3.1",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GeckoPackages/GeckoPHPUnit.git",
-                "reference": "dbb18b292cfa14444d2e6d15202b9dcf5ab8365e"
+                "reference": "8b0320158e34c3d85e5133c341d55c4d6ec5e927"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GeckoPackages/GeckoPHPUnit/zipball/dbb18b292cfa14444d2e6d15202b9dcf5ab8365e",
-                "reference": "dbb18b292cfa14444d2e6d15202b9dcf5ab8365e",
+                "url": "https://api.github.com/repos/GeckoPackages/GeckoPHPUnit/zipball/8b0320158e34c3d85e5133c341d55c4d6ec5e927",
+                "reference": "8b0320158e34c3d85e5133c341d55c4d6ec5e927",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0"
             },
             "conflict": {
-                "phpunit/phpunit": "<6.0"
+                "phpunit/phpunit": "<6.0 || >6.5"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.0"
@@ -2945,7 +2943,7 @@
                 "filesystem",
                 "phpunit"
             ],
-            "time": "2018-01-24T18:03:59+00:00"
+            "time": "2018-02-05T09:18:39+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3096,16 +3094,16 @@
         },
         {
             "name": "php-cs-fixer/diff",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/diff.git",
-                "reference": "f0ef6133d674137e902fdf8a6f2e8e97e14a087b"
+                "reference": "b95b8c02c58670b15612cfc60873f3f7f5290484"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/diff/zipball/f0ef6133d674137e902fdf8a6f2e8e97e14a087b",
-                "reference": "f0ef6133d674137e902fdf8a6f2e8e97e14a087b",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/diff/zipball/b95b8c02c58670b15612cfc60873f3f7f5290484",
+                "reference": "b95b8c02c58670b15612cfc60873f3f7f5290484",
                 "shasum": ""
             },
             "require": {
@@ -3122,6 +3120,9 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
             "authors": [
                 {
                     "name": "Kore Nordmann",
@@ -3140,7 +3141,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2017-10-19T09:58:18+00:00"
+            "time": "2017-10-21T10:28:17+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -4582,16 +4583,16 @@
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "0442b9c0596610bd24ae7b5f0a6cdbbc16d9fcff"
+                "reference": "3532bfcd8f933a7816f3a0a59682fc404776600f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/0442b9c0596610bd24ae7b5f0a6cdbbc16d9fcff",
-                "reference": "0442b9c0596610bd24ae7b5f0a6cdbbc16d9fcff",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/3532bfcd8f933a7816f3a0a59682fc404776600f",
+                "reference": "3532bfcd8f933a7816f3a0a59682fc404776600f",
                 "shasum": ""
             },
             "require": {
@@ -4601,7 +4602,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -4637,20 +4638,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-10-11T12:05:26+00:00"
+            "time": "2018-01-30T19:27:44+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "6de4f4884b97abbbed9f0a84a95ff2ff77254254"
+                "reference": "8eca20c8a369e069d4f4c2ac9895144112867422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/6de4f4884b97abbbed9f0a84a95ff2ff77254254",
-                "reference": "6de4f4884b97abbbed9f0a84a95ff2ff77254254",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/8eca20c8a369e069d4f4c2ac9895144112867422",
+                "reference": "8eca20c8a369e069d4f4c2ac9895144112867422",
                 "shasum": ""
             },
             "require": {
@@ -4659,7 +4660,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -4692,7 +4693,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-10-11T12:05:26+00:00"
+            "time": "2018-01-31T17:43:24+00:00"
         },
         {
             "name": "symfony/process",
